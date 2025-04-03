@@ -1,7 +1,7 @@
 # 📈 Previsão de Volatilidade Realizada em Criptomoedas com Modelos Fuzzy Baseados em Level Sets
 
 ## 📚 Descrição do Projeto
-Este projeto tem como objetivo o desenvolvimento de um modelo de previsão da volatilidade realizada de criptomoedas, utilizando dados intradiários. O modelo será construído com base em regras nebulosas (fuzzy) e no conceito de *level sets*, sendo comparado a variantes do modelo HAR (Heterogeneous Autoregressive).
+Este projeto tem como objetivo desenvolver um modelo para previsão da volatilidade realizada de criptomoedas a partir de dados intradiários. A proposta se baseia na utilização de regras nebulosas (fuzzy rules), cujas inferências serão conduzidas por meio da estruturação de level sets. O modelo adotará uma abordagem de aprendizado online, permitindo que ele se adapte continuamente às novas informações do mercado em tempo real. Para viabilizar essa atualização dinâmica, será empregado no modelo o algoritmo RCLS (Recursive Least Squares), que possibilita a recalibração eficiente dos parâmetros do sistema à medida que novos dados são incorporados. O desempenho do modelo será avaliado por meio da comparação com variantes do modelo HAR (Heterogeneous Autoregressive).
 
 ---
 
@@ -18,24 +18,24 @@ Este projeto tem como objetivo o desenvolvimento de um modelo de previsão da vo
 
 ## 📅 Cronograma
 
-### 📅 Março  (25 horas)
+### 📅 Março  (30 horas)
 #### 📖 Estudo Teórico dos Modelos Fuzzy Baseados em Level Sets  
 - Revisão introdutória da lógica fuzzy. - 10h
-- Compreensão da construção das regras fuzzy e funções de pertinência em modelos fuzzy baseados em level sets. - 15h
+- Estudo sobre a construção de regras fuzzy e definição de funções de pertinência em modelos fuzzy baseados em level sets. - 20h
 
 ---
 
 ### 📅 Abril  (35 horas)
 #### 📖 Início do Estudo Inicial do Modelo Fuzzy Adaptativo proposto pelo Prof. Dr. Leandro Maciel
-- Estudo do algoritmo **Recursive Correntropy-Based Least Squares (RCLS)** para ajuste online de parâmetros. - 15h 
+- Estudo do algoritmo **Recursive Correntropy-Based Least Squares (RCLS)** para ajuste online de parâmetros do modelo. - 15h 
 - Estudo dos métodos de granulação do espaço entrada-saída (**grid, clustering, hierárquico**). - 15h
-- Início da análise do modelo fuzzy adaptativo proposto pelo Prof. Dr. Leandro Maciel. 5h
+- Início da análise do [modelo fuzzy adaptativo proposto pelo Prof. Dr. Leandro Maciel](https://github.com/GB-Navarro/MAC0215/tree/main/refer%C3%AAncias). - 5h
 
 ---
 
 ### 📅 Maio  (35 horas)
 #### 📖 Finalização do Estudo Inicial do Modelo Fuzzy Adaptativo proposto pelo Prof. Dr. Leandro Maciel
-- Conclusão da análise do modelo fuzzy adaptativo proposto pelo Prof. Dr. Leandro Maciel. - 10h
+- Conclusão da análise do [modelo fuzzy adaptativo proposto pelo Prof. Dr. Leandro Maciel](https://github.com/GB-Navarro/MAC0215/tree/main/refer%C3%AAncias). - 10h
 
 #### 💻 Desenvolvimento Inicial do Modelo Fuzzy Adaptativo proposto pelo Prof. Dr. Leandro Maciel
 - Coleta e estruturação de dados intradiários para o cálculo da volatilidade realizada. - 15h
@@ -45,7 +45,8 @@ Este projeto tem como objetivo o desenvolvimento de um modelo de previsão da vo
 
 ### 📅 Junho  (30 horas)
 #### 💻 Continuação do Desenvolvimento e Ajustes no Modelo Fuzzy proposto pelo Prof. Dr. Leandro Maciel
-- Refinamento da implementação e documentação do algoritmo proposto pelo Prof. Dr. Leandro Maciel. - 10h
+
+- Aperfeiçoamento da implementação desenvolvida até o momento e documentação detalhada do algoritmo proposto pelo Prof. Dr. Leandro Maciel. - 10h
 - Seleção de **features** relevantes para alimentar o modelo fuzzy implementado. - 5h
 - Início do desenvolvimento de um script para seleção automática de **features**. - 15h
 
