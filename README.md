@@ -89,7 +89,7 @@ Este projeto tem como objetivo desenvolver um modelo para previsão da volatilid
 ---
 
 ## 🔗 Links Importantes
-- 📁 [Repositório de códigos](#)
+- 📁 [Repositório de códigos](https://github.com/GB-Navarro/ALSM_EUSFLAT_2025)
 - 📊 [Relatórios e apresentações](#)
 - 📚 [Bibliografia utilizada](#)
 ---
