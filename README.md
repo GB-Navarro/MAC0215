@@ -76,7 +76,7 @@ Ao longo do desenvolvimento, foram realizados estudos teóricos e implementaçõ
 | Estruturação inicial do código do modelo fuzzy adaptativo                                     | ✅ Concluído    |
 | Estudo do algoritmo de clusterização fuzzy Gustafson‐Kessel                                   | ✅ Concluído    |
 | Integração da clusterização Gustafson-Kessel para definição do número de regras fuzzy no modelo        | ✅ Concluído    |
-| Início do desenvolvimento do mecanismo de seleção automática de parâmetros                    | ⚙️ Em andamento |
+| Início do desenvolvimento do mecanismo de seleção automática de parâmetros                    | ✅ Concluído |
 | Definição preliminar das etapas futuras (validação, avaliação e expansão do modelo)           | ✅ Concluído    |
 
 ---
